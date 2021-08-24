@@ -1,0 +1,7 @@
+2021-08-17 12:36:13.375 -05 [19540] LOG:  no se pudo enlazar a la dirección IPv6 «::1»: Permission denied
+2021-08-17 12:36:13.375 -05 [19540] HINT:  ¿Hay otro postmaster corriendo en el puerto 5432? Si no, aguarde unos segundos y reintente.
+2021-08-17 12:36:13.375 -05 [19540] LOG:  no se pudo enlazar a la dirección IPv4 «127.0.0.1»: Permission denied
+2021-08-17 12:36:13.375 -05 [19540] HINT:  ¿Hay otro postmaster corriendo en el puerto 5432? Si no, aguarde unos segundos y reintente.
+2021-08-17 12:36:13.375 -05 [19540] WARNING:  no se pudo crear el socket de escucha para «localhost»
+2021-08-17 12:36:13.376 -05 [19540] FATAL:  no se pudo crear ningún socket TCP/IP
+2021-08-17 12:36:13.376 -05 [19540] LOG:  el sistema de bases de datos está apagado
