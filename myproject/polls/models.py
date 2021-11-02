@@ -12,7 +12,7 @@ class Question(models.Model):
         return self.question_text
 
     def fue_publicado_reciente(self): ## fecha es reciente si no han pasado mas de 24 horas + de 1 dia
-        return self.pub_date > timezone.now() - datetime.timedelta(days=1)
+        return self.pub_date >= timezone.now() - datetime.timedelta(days=1)
 
 
 class Choice(models.Model):
